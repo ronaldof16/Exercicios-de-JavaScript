@@ -25,7 +25,7 @@
 }
 
 .banner {
-    background-image: url("../img/fundo.jfif");
+    background-image: url("../img/banner1.jpg");
     /*width: 1440px;
     height: 352px;*/
     padding: 32px;
@@ -34,7 +34,7 @@
 }
 
 .texto-banner {
-   margin-left: 150px;
+   margin-left: 110px;
 }
 
 h1 {
@@ -51,9 +51,54 @@ h1 p {
     width: 130px;
     height: 51px;
     padding: 16px;
-    background-color: #2A7AE4;
+    background: #2A7AE4;
     color: white;
     border: none;
+}
+
+.secao-produtos {
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+}
+
+.texto-topicos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.ver-tudo {
+    margin: 30px 0 0;
+    color: #2A7AE4;
+    font-weight: 700;
+}
+
+.texto-itens {
+    display: flex;
+    column-gap: 10px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.nome-do-produto {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.ver-produto {
+    font-weight: 700;
+    color: #2A7AE4; 
 }
 
 
