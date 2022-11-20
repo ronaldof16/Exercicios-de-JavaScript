@@ -2,4 +2,4 @@
 
 Repositório para exercícios
 
-projeto em dupla
+projeto em dupla e-commerce
